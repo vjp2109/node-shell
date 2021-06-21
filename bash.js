@@ -13,7 +13,7 @@ process.stdin.on("data", (data) => {
   } else if (cmd === "ls") {
     ls(done);
   } else if (catCheck === "cat") {
-    cat(fileName);
+    cat(done, fileName);
   } else {
     done(cmd);
   }
