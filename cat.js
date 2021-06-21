@@ -7,7 +7,7 @@ const cat = (fileName) => {
       return;
     }
     console.log(data);
-    process.stdout.write("prompt > ");
+    process.stdout.write("\nprompt > ");
   });
 };
 
